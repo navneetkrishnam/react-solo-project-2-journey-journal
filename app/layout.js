@@ -1,3 +1,5 @@
+import './global.css'
+
 export const metadata = {
   title: 'Travel Journal',
   description: 'Developed by Navneet Krishna',
