@@ -1,0 +1,30 @@
+.headerContainer {
+    width: 100%;
+    background-color: rgb(255, 104, 87);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgb(170, 170, 170);
+}
+
+
+@media screen and (max-width: 900px) {
+    #logo {
+        height: 3vh;
+        width: auto;
+        margin-right: 2vw;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    #logo {
+        height: 3vh;
+        width: auto;
+        margin-right: 0.5vw;
+    }
+}
