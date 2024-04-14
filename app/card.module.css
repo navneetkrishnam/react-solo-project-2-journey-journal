@@ -1,0 +1,103 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7.5vh;
+    margin-left: 5vw;
+}
+
+#locationSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#googleMaps {
+    color: gray;
+}
+
+
+@media screen and (max-width: 900px) {
+    #infoDiv {
+        margin-left: 4vw;
+    }
+
+    #travelImage {
+        height: 25vh;
+        width: auto;
+        border-radius: 10px;
+    }
+
+    #locationSection {
+        font-size: small;
+    }
+
+    #locationIcon {
+        height: 2vh;
+        width: auto;
+    }
+
+    #googleMaps {
+        margin-left: 2vw;
+    }
+
+    #tripTimeline {
+        font-weight: bold;
+        font-size: small;
+        margin-bottom: 0px;
+    }
+
+    #locationName {
+        margin-top: 0px;
+        font-size: x-large;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    #travelLog {
+        font-size: smaller;
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    #infoDiv {
+        margin-left: 2vw;
+        margin-top: 2vh;
+    }
+
+    #travelImage {
+        height: 40vh;
+        width: auto;
+        border-radius: 10px;
+    }
+
+    #locationIcon {
+        height: 2vh;
+        width: auto;
+    }
+
+    #googleMaps {
+        margin-left: 1vw;
+    }
+
+    #locationName {
+        margin-top: 0px;
+        font-size: xx-large;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    #tripTimeline {
+        font-weight: bold;
+        font-size: large;
+        margin-bottom: 0px;
+        margin-top: 3vh;
+    }
+
+    #travelLog {
+        margin-top: 1vh;
+        font-size: medium;
+        width: 45%;
+    }
+}
